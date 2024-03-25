@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+}
+.header a .img{
+    width: 130px;
+    height: 50px;
+    margin: auto;
+    margin-right: 70px;
+}
+.header .h-60{
+    background-color:azure;
+    border: none;
+    margin-top: 15px;
+    width: 450px;
+    border-radius: 5px;
+    height: 40px;
+    padding: 15px;
+}
+.header .button{
+    margin: 0;
+    outline: 0;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    background-color: azure;
+}
+.header button{
+    border: none;
+    margin: 19px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+}
+.container1{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.col
+{
+    margin: 10px;
+}
+/* ------------Products --------*/
+.container-fluid{
+    display: flex;
+    
+}
+.container-fluid .left{
+    width: 95%;
+    height: 250px;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+}
+.container-fluid .right{
+    width: 20%;
+    
+    background-color: white;
+}
+.container-fluid .left .item{
+    border: 0.3px solid grey;
+    width: 20%;
+    height: 100%;
+    border-radius: 7px;
+}
+.card1{
+    background-color: white;
+    width: 90%;
+    
+}
+.container-fluid img{
+    align-content: center;
+    padding:10px ;
+    margin: 0;
+    transition: all linear .5s;
+}
+.container-fluid img:hover{
+     transform: scale(1.1);
+     cursor: pointer;
+}
+
+/*-- Beauty , Foods , Toys & more--*/
+.beauty
+{
+    background-color: white;
+    margin: 10px;
+    width: 100%;
+    height: 400px;
+}
+.card{
+    display: flex;
+}
+.row1{
+    
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+.col1{
+    border: 0.3px solid grey;
+    border-radius: 7px;
+    width: 15%;
+    height: 75%;
+    padding: 2px;
+    margin: auto 3px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.col1 img{
+    transition: .5s all;
+    border-radius: 8px;
+}
+.col1 img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/*----Section-----*/
+
+.section1
+{
+    display: flex;
+    height: 500px;
+    margin: 4px;
+    box-sizing: border-box;
+}
+.section1 .left{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    align-items: center;
+}
+.section1 .left.row{
+    width: 90%;
+    height: 50%;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
+    border: 2px solid;
+}
+.section1 .left .row .col-2{
+    width: 40%;
+    height: 50%;
+    margin: 15px;
+    border: .4px solid grey;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+.section1 .left img{
+    transition: all linear .5s;
+}
+.section1 .left img:hover{
+    transform: scale(1.1);
+}
+.section1 .right{
+    width: 70%;
+    height: 500px;
+    margin-left: 8px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: bisque;
+}
+.section1 .text{
+    padding: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.section1 .right .img{
+     width: 60%;
+     height: 100%;
+}
+.section1 .btn{
+    width: 190px;
+    height: 50px;
+    position: relative;
+} 
+
+/*----    Section-2   ------- */
+.section2{
+
+    height: 500px;
+}
+.section2 .col-4 .card {
+    background-color: white;
+    height: 100%;
+    font-weight: 400;
+}
+.section2 .col-4 .card .col-2{
+    border: .4px solid grey;
+    width: 40%;
+    height: 90%;
+    margin: 18px;
+    padding: 10px;
+    border-radius: 7px;
+    text-align: center;
+}
+.section3
+{
+    margin-top: 145px;
+    width: 100%;
+    height: 400px;
+    
+}
+.about{
+    color: grey;
+    margin: 50px 30px;
+    font-size: 16px;
+}
